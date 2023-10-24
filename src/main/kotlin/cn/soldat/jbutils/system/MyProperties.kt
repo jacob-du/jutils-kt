@@ -1,6 +1,5 @@
 package cn.soldat.jbutils.system
 
-import jdk.internal.agent.Agent.error
 import java.util.*
 
 /**
