@@ -1,10 +1,9 @@
 plugins {
-    kotlin("jvm") version "1.8.22"
+    kotlin("jvm") version "1.8.21"
     `maven-publish`
 }
 
 group = "cn.soldat"
-//version = "0.0.1"
 
 repositories {
     maven(url = "https://mirrors.cloud.tencent.com/nexus/repository/maven-public/")
