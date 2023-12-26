@@ -13,6 +13,9 @@ const val ZONE_OFFSET_GMT_UTC = "GMT/UTC" // 格林威治时间和世界协调�
 val LocalDateTime_Min: LocalDateTime
     get() = LocalDateTime.of(1970,1,1,0,0,0)
 
+val LocalDateTime_MAX: LocalDateTime
+    get() = LocalDateTime.of(9999,12,31,23,59,59)
+
 val LocalDateTime_UTC: LocalDateTime
     get() = LocalDateTime.now(ZoneOffset.UTC)
 

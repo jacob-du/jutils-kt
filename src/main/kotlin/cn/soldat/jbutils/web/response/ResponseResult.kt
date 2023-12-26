@@ -1,17 +1,21 @@
 package cn.soldat.jbutils.web.response
 
-//import io.swagger.v3.oas.annotations.media.Schema
 
 /**
  * 统一响应数据类
  */
-//@Schema(title = "统一响应类")
 data class ResponseResult<T> (
-//    @Schema(description = "响应码")
+    /**
+     * 响应码
+     */
     val code: Int,
-//    @Schema(description = "响应信息")
+    /**
+     * 响应信息
+     */
     val msg: String,
-//    @Schema(description = "响应数据")
+    /**
+     * 响应数据
+     */
     val data: T? = null
 ){
 

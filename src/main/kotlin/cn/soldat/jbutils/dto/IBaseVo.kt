@@ -18,22 +18,44 @@ interface IBaseVo<E, VO>{
 /**
  * DTO : Data Transfer Object 前端传到后端的而对象，转换成json的对象， Controller层定义的东西
  */
-interface IBaseDto<DTO, E>{
+//interface IBaseDto<DTO, E>{
+//    /**
+//     * 将 DTO 转换为实体类
+//     */
+//    fun copy(dto: DTO): E
+//
+//    /**
+//     * 将 DTO 列表转换为实体类列表
+//     */
+//    fun copy(list: List<DTO>): List<E> = list.map { copy(it) }
+//}
+
+interface IBaseDto<DTO, O> {
     /**
      * 将 DTO 转换为实体类
      */
-    fun copy(dto: DTO): E
+    fun copy(dto: DTO): O
 
     /**
      * 将 DTO 列表转换为实体类列表
      */
-    fun copy(list: List<DTO>): List<E> = list.map { copy(it) }
+    fun copy(list: List<DTO>): List<O> = list.map { copy(it) }
 }
 
 /**
  * BO： Business Object 一个业务对象，就是PO的组合
  */
-interface IBaseBo
+interface IBaseBo<Bo, E> {
+    /**
+     * 将 BO 转换为实体类
+     */
+    fun copy(bo: Bo): E
+
+    /**
+     * 将 BO 列表转换为实体类列表
+     */
+    fun copy(list: List<Bo>): List<E> = list.map { copy(it) }
+}
 
 /**
  * PO：Persistent Object 持久化对象，等同于Entity，一条数据库中的记录
