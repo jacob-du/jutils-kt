@@ -41,7 +41,7 @@ object JwtUtil {
      */
     fun validate(token:String, uid: String): Boolean{
         val userId = getUserIdFromToken(token)
-        return userId == uid && isTokenExpired(token)
+        return userId == uid && !isTokenExpired(token)
     }
 
     /**
