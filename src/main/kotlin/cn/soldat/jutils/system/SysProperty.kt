@@ -1,4 +1,4 @@
-package cn.soldat.jbutils.system
+package cn.soldat.jutils.system
 
 object SysProperty {
     val OS_NAME: String = System.getProperty("os.name")             // 操作系统名称       Mac OS X

@@ -1,4 +1,4 @@
-package cn.soldat.jbutils.codec
+package cn.soldat.jutils.codec
 
 import io.jsonwebtoken.Claims
 import io.jsonwebtoken.Jwts

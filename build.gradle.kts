@@ -25,7 +25,7 @@ publishing {
     publications {
         create<MavenPublication>("maven") {
             groupId = "cn.soldat"
-            artifactId = "jacob-utils"
+            artifactId = "jutils-kt"
 //            version = "1.0.5"
 
             from(components["java"])

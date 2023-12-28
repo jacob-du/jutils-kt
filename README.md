@@ -15,8 +15,8 @@ dependencies {
 
 > 示例
 ```kotlin
-import cn.soldat.jbutils.extension.toDateTimeString
-import cn.soldat.jbutils.extension.toUtc
+import cn.soldat.jutils.extension.toDateTimeString
+import cn.soldat.jutils.extension.toUtc
 import java.time.LocalDateTime
 
 fun main(args: Array<String>) {

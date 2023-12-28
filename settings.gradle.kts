@@ -1,2 +1,2 @@
-rootProject.name = "jacob-utils"
+rootProject.name = "jutils-kt"
 

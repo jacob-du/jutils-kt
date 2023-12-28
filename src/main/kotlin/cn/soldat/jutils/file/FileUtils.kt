@@ -1,7 +1,6 @@
-package cn.soldat.jbutils.file
+package cn.soldat.jutils.file
 
 import java.io.File
-import java.text.DecimalFormat
 
 object FileUtils {
 

@@ -1,6 +1,6 @@
-package cn.soldat.jbutils.system
+package cn.soldat.jutils.system
 
-import cn.soldat.jbutils.web.response.ResponseCode
+import cn.soldat.jutils.web.response.ResponseCode
 
 /**
  * 全局异常处理 (msg)

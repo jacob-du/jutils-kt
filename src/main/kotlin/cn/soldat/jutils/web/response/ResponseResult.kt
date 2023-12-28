@@ -1,4 +1,4 @@
-package cn.soldat.jbutils.web.response
+package cn.soldat.jutils.web.response
 
 
 /**

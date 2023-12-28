@@ -1,4 +1,4 @@
-package cn.soldat.jbutils.extension
+package cn.soldat.jutils.extension
 
 import java.text.DecimalFormat
 

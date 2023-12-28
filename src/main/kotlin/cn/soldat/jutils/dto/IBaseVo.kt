@@ -1,4 +1,4 @@
-package cn.soldat.jbutils.dto
+package cn.soldat.jutils.dto
 
 /**
  * VO: View Object / Value Object 一般为响应到前端的数据

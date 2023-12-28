@@ -1,4 +1,4 @@
-package cn.soldat.jbutils.system
+package cn.soldat.jutils.system
 
 import java.util.*
 

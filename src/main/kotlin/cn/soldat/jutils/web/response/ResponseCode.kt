@@ -1,4 +1,4 @@
-package cn.soldat.jbutils.web.response
+package cn.soldat.jutils.web.response
 
 enum class ResponseCode(val code: Int, val msg: String){
     SUCCESS(200, "成功"),
